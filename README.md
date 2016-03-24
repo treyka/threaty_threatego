@@ -32,7 +32,7 @@ Okay, I get it. Now what?
 
 How can I help?
 ---------------
-* Pull requests and [Github issues][6] warmly welcomed!
+* Pull requests and [Github issues][5] warmly welcomed!
 
 Future plans
 ------------
@@ -43,5 +43,5 @@ Future plans
 [1]: http://cyboxproject.github.io/documentation/objects/
 [2]: https://github.com/akniffe1/STIXtego
 [3]: https://github.com/akniffe1/
-[5]: https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cti-cybox
-[6]: https://github.com/treyka/threaty_threatego/issues
+[4]: https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cti-cybox
+[5]: https://github.com/treyka/threaty_threatego/issues
