@@ -18,9 +18,9 @@ But wait, wasn't there already one of those?
 
 Okay, I get it. Now what?
 -------------------------
-* You can just download the .mtx included in this project and load it
-  right into Maltego *or* you can clone this project and build it
-  yourself by running the included `build.sh`.
+* You can just [download the .mtx][5] included in this project and
+  load it right into Maltego *or* you can clone this project and build
+  it yourself by running the included `build.sh`.
 
 * The STIX entities encompass the entire STIX 1.2 data model. There
   were places where due to limitations in Maltego's available
@@ -32,7 +32,7 @@ Okay, I get it. Now what?
 
 How can I help?
 ---------------
-* Pull requests and [Github issues][5] warmly welcomed!
+* Pull requests and [Github issues][6] warmly welcomed!
 
 Future plans
 ------------
@@ -44,4 +44,5 @@ Future plans
 [2]: https://github.com/akniffe1/STIXtego
 [3]: https://github.com/akniffe1/
 [4]: https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cti-cybox
-[5]: https://github.com/treyka/threaty_threatego/issues
+[5]: https://github.com/treyka/threaty_threatego/blob/master/threaty_threatego.mtz
+[6]: https://github.com/treyka/threaty_threatego/issues
