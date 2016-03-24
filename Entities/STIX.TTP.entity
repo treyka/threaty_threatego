@@ -1,0 +1,57 @@
+<MaltegoEntity id="STIX.TTP" displayName="TTP" displayNamePlural="TTPs" description="A STIX TTP is used to represent adversarial behavior, such as what victims they target, what attack patterns and malware they use, and what resources (infrastructure, tools, personas) they leverage." category="STIX" smallIconResource="ttp" largeIconResource="ttp" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties image="properties.ttp" value="properties.ttp">
+      <Groups/>
+      <Fields>
+         <Field name="properties.ttp" type="string" nullable="true" hidden="false" readonly="false" description="A STIX TTP is used to represent adversarial behavior, such as what victims they target, what attack patterns and malware they use, and what resources (infrastructure, tools, personas) they leverage." displayName="TTP">
+            <DefaultValue> </DefaultValue>
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="id" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="timestamp" type="datetime" nullable="true" hidden="false" readonly="false"/>
+         <Field name="Title" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Description" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Short_Description" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Intended_Effect" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Behavior" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Resources" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Victim_Targeting" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Exploit_Targets" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Related_TTPs" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Kill_Chain_Phases" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Information_Source" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Kill_Chains" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Handling" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Related_Packages" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

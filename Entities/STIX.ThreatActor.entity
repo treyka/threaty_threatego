@@ -1,0 +1,63 @@
+<MaltegoEntity id="STIX.ThreatActor" displayName="Threat Actor" displayNamePlural="Threat Actors" description="A STIX Threat Actor conveys information that characterizes or identifies (or both) an adversary." category="STIX" smallIconResource="threat_actor" largeIconResource="threat_actor" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties image="properties.threatactor" value="properties.threatactor">
+      <Groups/>
+      <Fields>
+         <Field name="properties.threatactor" type="string" nullable="true" hidden="false" readonly="false" description="A STIX Threat Actor conveys information that characterizes or identifies (or both) an adversary." displayName="Threat Actor">
+            <DefaultValue> </DefaultValue>
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="id" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="timestamp" type="datetime" nullable="true" hidden="false" readonly="false"/>
+         <Field name="Title" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Description" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Short_Description" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Identity" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Type" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Motivation" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Sophistication" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Intended_Effect" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Planning_And_Operational_Support" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Observed_TTPs" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Associated_Campaigns" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Associated_Actors" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Handling" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Confidence" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Information_Source" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Related_Packages" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

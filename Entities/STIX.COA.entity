@@ -1,0 +1,60 @@
+<MaltegoEntity id="STIX.COA" displayName="Course of Action" displayNamePlural="Courses of Action" description="A STIX Course of Action component is used to convey information about courses of action that may be taken either in response to an attack or as a preventative measure prior to an attack." category="STIX" smallIconResource="course_of_action" largeIconResource="course_of_action" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties image="properties.coa" value="properties.coa">
+      <Groups/>
+      <Fields>
+         <Field name="properties.coa" type="string" nullable="true" hidden="false" readonly="false" description="A STIX Course of Action component is used to convey information about courses of action that may be taken either in response to an attack or as a preventative measure prior to an attack." displayName="COA">
+            <DefaultValue> </DefaultValue>
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="id" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="timestamp" type="datetime" nullable="true" hidden="false" readonly="false"/>
+         <Field name="Title" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Description" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Short_Description" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Stage" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Type" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Objective" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Parameter_Observables" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Structured_COA" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Impact" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Cost" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Efficacy" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Information_Source" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Handling" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Related_COAs" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Related_Packages" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

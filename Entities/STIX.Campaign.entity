@@ -1,0 +1,63 @@
+<MaltegoEntity id="STIX.Campaign" displayName="Campaign" displayNamePlural="Campaigns" description="A STIX Campaign represents a set of TTPs, incidents, or threat actors that together express a common intent or desired effect." category="STIX" smallIconResource="campaign" largeIconResource="campaign" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties image="properties.campaign" value="properties.campaign">
+      <Groups/>
+      <Fields>
+         <Field name="properties.campaign" type="string" nullable="true" hidden="false" readonly="false" description="A STIX Campaign represents a set of TTPs, incidents, or threat actors that together express a common intent or desired effect." displayName="Campaign">
+            <DefaultValue> </DefaultValue>
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="id" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="timestamp" type="datetime" nullable="true" hidden="false" readonly="false"/>
+         <Field name="Title" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Description" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Short_Description" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Names" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Intended_Effect" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Status" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Related_TTPs" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Related_Incidents" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Related_Indicators" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Attribution" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Associated_Campaigns" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Confidence" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Activity" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Information_Source" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Handling" type="string" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="Related_Packages" type="string[]" nullable="true" hidden="false" readonly="false">
+            <SampleValue></SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>
